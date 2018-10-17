@@ -116,7 +116,7 @@
 		AEA45ECA1C43D2B900FE1F62 /* RMQTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA45EC91C43D2B900FE1F62 /* RMQTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA45ED11C43F4DC00FE1F62 /* RMQTCPSocketTransport.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA45ECF1C43F4DC00FE1F62 /* RMQTCPSocketTransport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEA45ED21C43F4DC00FE1F62 /* RMQTCPSocketTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA45ED01C43F4DC00FE1F62 /* RMQTCPSocketTransport.m */; };
-		AEA45EDC1C440FE400FE1F62 /* RMQClient-macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE7FE911C3BCA6000DF8C4F /* RMQClient-macOS.framework */; };
+		AEA45EDC1C440FE400FE1F62 /* RMQClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE7FE911C3BCA6000DF8C4F /* RMQClient.framework */; };
 		AEA45EE21C440FFD00FE1F62 /* IntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE607C681C3C0EAD00BE9AC4 /* IntegrationTests.swift */; };
 		AEA45EE31C44100C00FE1F62 /* RMQTCPSocketTransportTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA45ECD1C43F44400FE1F62 /* RMQTCPSocketTransportTest.swift */; };
 		AEA7A3D91C72255900BDEA05 /* RMQQueueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA7A3D81C72255900BDEA05 /* RMQQueueTest.swift */; };
@@ -169,7 +169,7 @@
 		AEE445EB1C7373BF0082132C /* RMQBasicProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = AEE445E91C7373BF0082132C /* RMQBasicProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEE445EC1C7373BF0082132C /* RMQBasicProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE445EA1C7373BF0082132C /* RMQBasicProperties.m */; };
 		AEE7FE951C3BCA6000DF8C4F /* RMQClient.h in Headers */ = {isa = PBXBuildFile; fileRef = AEE7FE941C3BCA6000DF8C4F /* RMQClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEE7FE9C1C3BCA6000DF8C4F /* RMQClient-macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE7FE911C3BCA6000DF8C4F /* RMQClient-macOS.framework */; };
+		AEE7FE9C1C3BCA6000DF8C4F /* RMQClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEE7FE911C3BCA6000DF8C4F /* RMQClient.framework */; };
 		AEE7FEAD1C3BCD0F00DF8C4F /* RMQConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = AEE7FEAB1C3BCD0F00DF8C4F /* RMQConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEE7FEAE1C3BCD0F00DF8C4F /* RMQConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = AEE7FEAC1C3BCD0F00DF8C4F /* RMQConnection.m */; };
 		AEE7FEB11C3BCEBA00DF8C4F /* RMQAllocatedChannel.h in Headers */ = {isa = PBXBuildFile; fileRef = AEE7FEAF1C3BCEBA00DF8C4F /* RMQAllocatedChannel.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -595,7 +595,7 @@
 		AEE445E71C7342EE0082132C /* RMQReaderTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = RMQReaderTest.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AEE445E91C7373BF0082132C /* RMQBasicProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = RMQBasicProperties.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		AEE445EA1C7373BF0082132C /* RMQBasicProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = RMQBasicProperties.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
-		AEE7FE911C3BCA6000DF8C4F /* RMQClient-macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RMQClient-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEE7FE911C3BCA6000DF8C4F /* RMQClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMQClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEE7FE941C3BCA6000DF8C4F /* RMQClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RMQClient.h; sourceTree = "<group>"; };
 		AEE7FE961C3BCA6000DF8C4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEE7FE9B1C3BCA6000DF8C4F /* RMQClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RMQClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -628,8 +628,8 @@
 		AEF1E8FA1CBEA057000C7AB8 /* RMQHandshaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMQHandshaker.m; sourceTree = "<group>"; };
 		AEFFE6361C8EE7B30039D652 /* RMQConnectionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMQConnectionConfig.h; sourceTree = "<group>"; };
 		AEFFE6371C8EE7B30039D652 /* RMQConnectionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMQConnectionConfig.m; sourceTree = "<group>"; };
-		B5008D032177AB7200B9432B /* RMQClient-iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RMQClient-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5008D7A2177AB9300B9432B /* RMQClient-tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "RMQClient-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5008D032177AB7200B9432B /* RMQClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMQClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5008D7A2177AB9300B9432B /* RMQClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMQClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -637,7 +637,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEA45EDC1C440FE400FE1F62 /* RMQClient-macOS.framework in Frameworks */,
+				AEA45EDC1C440FE400FE1F62 /* RMQClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,7 +652,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEE7FE9C1C3BCA6000DF8C4F /* RMQClient-macOS.framework in Frameworks */,
+				AEE7FE9C1C3BCA6000DF8C4F /* RMQClient.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -975,11 +975,11 @@
 		AEE7FE921C3BCA6000DF8C4F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AEE7FE911C3BCA6000DF8C4F /* RMQClient-macOS.framework */,
+				AEE7FE911C3BCA6000DF8C4F /* RMQClient.framework */,
 				AEE7FE9B1C3BCA6000DF8C4F /* RMQClientTests.xctest */,
 				AEA45ED71C440FE400FE1F62 /* RMQClientIntegrationTests.xctest */,
-				B5008D032177AB7200B9432B /* RMQClient-iOS.framework */,
-				B5008D7A2177AB9300B9432B /* RMQClient-tvOS.framework */,
+				B5008D032177AB7200B9432B /* RMQClient.framework */,
+				B5008D7A2177AB9300B9432B /* RMQClient.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1332,7 +1332,7 @@
 			);
 			name = "RMQClient-macOS";
 			productName = RMQClient;
-			productReference = AEE7FE911C3BCA6000DF8C4F /* RMQClient-macOS.framework */;
+			productReference = AEE7FE911C3BCA6000DF8C4F /* RMQClient.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		AEE7FE9A1C3BCA6000DF8C4F /* RMQClientTests */ = {
@@ -1369,7 +1369,7 @@
 			);
 			name = "RMQClient-iOS";
 			productName = RMQClient;
-			productReference = B5008D032177AB7200B9432B /* RMQClient-iOS.framework */;
+			productReference = B5008D032177AB7200B9432B /* RMQClient.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B5008D052177AB9300B9432B /* RMQClient-tvOS */ = {
@@ -1388,7 +1388,7 @@
 			);
 			name = "RMQClient-tvOS";
 			productName = RMQClient;
-			productReference = B5008D7A2177AB9300B9432B /* RMQClient-tvOS.framework */;
+			productReference = B5008D7A2177AB9300B9432B /* RMQClient.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1954,7 +1954,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.pivotal.RMQClient;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RMQClient;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
@@ -1975,7 +1975,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.pivotal.RMQClient;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RMQClient;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
@@ -2025,7 +2025,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.pivotal.RMQClient;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RMQClient;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -2046,7 +2046,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.pivotal.RMQClient;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RMQClient;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -2067,7 +2067,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.pivotal.RMQClient;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RMQClient;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
@@ -2088,7 +2088,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.pivotal.RMQClient;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RMQClient;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
