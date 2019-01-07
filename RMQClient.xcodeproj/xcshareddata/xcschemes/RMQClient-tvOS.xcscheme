@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1000"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B5008D052177AB9300B9432B"
-               BuildableName = "RMQClient-tvOS.framework"
+               BuildableName = "RMQClient.framework"
                BlueprintName = "RMQClient-tvOS"
                ReferencedContainer = "container:RMQClient.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B5008D052177AB9300B9432B"
-            BuildableName = "RMQClient-tvOS.framework"
+            BuildableName = "RMQClient.framework"
             BlueprintName = "RMQClient-tvOS"
             ReferencedContainer = "container:RMQClient.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B5008D052177AB9300B9432B"
-            BuildableName = "RMQClient-tvOS.framework"
+            BuildableName = "RMQClient.framework"
             BlueprintName = "RMQClient-tvOS"
             ReferencedContainer = "container:RMQClient.xcodeproj">
          </BuildableReference>
